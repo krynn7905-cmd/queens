@@ -881,7 +881,7 @@ nav {
     <div class="section-title" style="margin-bottom:16px">Your Cart</div>
     <div id="cart-items"></div>
     <div class="cart-total" id="cart-total">Total: KES 0</div>
-    <button class="checkout-btn" onclick="showOrderForm()">Proceed to Order →</button>
+    <!--button class="checkout-btn" onclick="showOrderForm()">Proceed to Order →</button-->
     <button class="wa-btn" onclick="orderViaWhatsApp()">
       <i class="fab fa-whatsapp" style="font-size:16px"></i> Order via WhatsApp
     </button>
@@ -1288,7 +1288,7 @@ function toggleCart() {
 
 /* ================================================================
    ORDER FORM
-================================================================ */
+================================================================ 
 function showOrderForm() {
   document.getElementById('order-form').classList.add('open');
   document.getElementById('cart-panel').classList.remove('open');
